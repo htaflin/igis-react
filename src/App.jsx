@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header.jsx';
+import CheckboxUncontrolled from './components/FormInputs/CheckboxUncontrolled.jsx';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
     return (
       <div style={{textAlign: 'center'}}>
         {jsxElements}
+        <CheckboxUncontrolled />
       </div>
     );
   }
