@@ -1,0 +1,39 @@
+html,
+
+body {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+}
+
+.search-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #6C7680;
+    border-radius: 15px;
+    width: 100%;
+    padding: 10px;
+}
+
+.search {
+    padding-left: 5px;
+    width: 90%;
+    height: 80%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.button:hover {
+    color: pink;
+    cursor: pointer;
+}
