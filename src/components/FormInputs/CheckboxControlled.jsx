@@ -12,7 +12,7 @@ class CheckboxControlled extends React.Component {
     }
 
     handleChange(event) {
-        this.setState({jasonVal: !this.state.jasonVal});
+        this.setState(Object.assign(this.state, {jasonVal: !this.state.jasonVal}));
     } 
 
     onSubmitHandler(event) {
