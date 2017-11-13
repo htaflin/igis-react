@@ -3,6 +3,8 @@ import Header from './components/Header.jsx';
 import CheckboxUncontrolled from './components/FormInputs/CheckboxUncontrolled.jsx';
 import CheckboxControlled from './components/FormInputs/CheckboxControlled.jsx';
 import TextBox from './components/FormInputs/TextBox.jsx';
+import Search from './components/FormInputs/Search.jsx';
+
 
 class App extends Component {
   render() {
@@ -16,10 +18,11 @@ class App extends Component {
 
     return (
       <div style={{textAlign: 'center'}}>
-        {jsxElements}
+        {/*{jsxElements}
         <CheckboxUncontrolled />
         <CheckboxControlled />
-        <TextBox />
+        <TextBox /> */}
+        <Search/>
       </div>
     );
   }
