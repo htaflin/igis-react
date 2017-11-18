@@ -1,2 +1,5 @@
 #exclude node modules 
 node_modules
+
+#exclude coverage
+coverage
